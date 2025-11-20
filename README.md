@@ -128,6 +128,9 @@ Once launched, you can:
 
 ### `ros2/src/gbp_planning_demos`
 
+<img width="941" height="859" alt="compare_path" src="https://github.com/user-attachments/assets/bf4eec3a-6623-486a-af58-bc6f3c67d4ac" />
+
+
 ROS 2 demos that take a real occupancy grid from `/map` and run the same algorithms (DFS, BFS, Dijkstra, A*) used in `windows_demo`, but inside a ROS 2 workflow.
 
 **Core node**: `simple_grid_planner` (Python)
