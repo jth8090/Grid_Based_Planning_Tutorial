@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>gbp_common</name>
+  <version>0.0.1</version>
+  <description>Common resources (maps, rviz configs, worlds) for Grid-Based Planning tutorial</description>
+
+  <maintainer email="you@example.com">Your Name</maintainer>
+  <license>MIT</license>
+
+  <!-- 빌드 툴 -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- ament_cmake 자체 -->
+  <build_depend>ament_cmake</build_depend>
+  <exec_depend>ament_cmake</exec_depend>
+
+  <!-- 런타임에 실제로 쓸 패키지들 -->
+  <exec_depend>nav2_map_server</exec_depend>
+  <exec_depend>rviz2</exec_depend>
+  <exec_depend>ament_index_python</exec_depend>
+  <exec_depend>gazebo_ros</exec_depend>
+</package>
