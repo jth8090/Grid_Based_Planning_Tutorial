@@ -1,4 +1,4 @@
-### Grid Based Planning Tutorial
+#### Grid Based Planning Tutorial
 
 This repository contains all source code and lecture materials used in my tutorial series on **Grid-Based Planning**.
 
