@@ -1,5 +1,8 @@
 # Grid Based Planning Tutorial
 
+Publisher: Taehyun Jung
+E-mail: jth8090@khu.ac.kr
+
 This repository contains all source code and lecture materials used in my tutorial series on **Grid-Based Planning**.
 
 The goal of this project is to bridge three layers:
