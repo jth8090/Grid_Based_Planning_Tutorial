@@ -15,6 +15,8 @@ Everything here is organized so that you can:
 * run the same code on Windows or on Ubuntu/ROS 2,
 * and clearly see how the theory is used in practice.
 
+**The lecture video URL is provided below.**
+
 ---
 
 ## Repository Structure
