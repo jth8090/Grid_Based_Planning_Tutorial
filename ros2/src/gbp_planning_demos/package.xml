@@ -4,7 +4,7 @@
   <name>gbp_planning_demos</name>
   <version>0.0.0</version>
   <description>TODO: Package description</description>
-  <maintainer email="home@todo.todo">home</maintainer>
+  <maintainer email="jth8090@khu.ac.kr">Taehyun Jung</maintainer>
   <license>TODO: License declaration</license>
 
   <depend>rclpy</depend>
