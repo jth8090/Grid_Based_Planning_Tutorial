@@ -77,7 +77,7 @@ Supporting modules:
   * **frontier** vs **visited** cells,
   * the final path,
   * how each algorithm expands nodes differently.
-  * 
+    
 * Behavior and notation are aligned with the lecture slides (Lectures 2–4).
 
 > Note: required Python packages are minimal (numpy, matplotlib, pillow).
