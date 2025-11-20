@@ -25,6 +25,7 @@ Everything here is organized so that you can:
 
 ## Repository Structure
 
+```text
 Grid_Based_Planning_Tutorial/
   windows_demo/        # Standalone Python demo (no ROS required)
   ros2/                # ROS 2 Humble grid-planning demos
