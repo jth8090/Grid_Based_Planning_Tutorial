@@ -214,7 +214,7 @@ All slides used in the videos are stored in the `lecture_docs/` directory:
 The full tutorial series is available on YouTube (in Korean).
 
 * **Tutorial Lecture(Youtube)**:
-  👉 [Grid Based Planning Tutorial – YouTube]([https://www.youtube.com/XXXXXXXXXXXX](https://youtube.com/playlist?list=PLfHEg65-de01IgZCHuQG21f6_7UmgTTKS&si=DnkbHJqKHTHSfzqB))
+  👉 [Grid Based Planning Tutorial – YouTube]: https://youtube.com/playlist?list=PLfHEg65-de01IgZCHuQG21f6_7UmgTTKS&si=W3xd0BXHyi-u9PD5
 
 Each lecture roughly follows the same pattern:
 
