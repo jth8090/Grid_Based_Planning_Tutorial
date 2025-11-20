@@ -34,6 +34,7 @@ Grid_Based_Planning_Tutorial/
       gbp_planning_demos/  # DFS/BFS/Dijkstra/A* on /map → nav_msgs/Path
   docs/                # Lecture slides and documents (PDF / PPT)
   README.md
+```
 
 ---
 
@@ -42,3 +43,19 @@ Grid_Based_Planning_Tutorial/
 Standalone Python code intended to run on Windows (or any OS with Python 3).
 
 (+ Numpy, Matplotlib, Pillow will be needed.)
+
+# Main entry point
+
+```
+run_compare.py
+```
+
+<img width="1422" height="892" alt="run_compare" src="https://github.com/user-attachments/assets/c617c9ea-8749-4f6f-87bb-1f511cb09bda" />
+
+→ opens an interactive window you can edit a grid and compare search algorithms.
+
+# Supporting modules
+```
+algorithms/
+
+
