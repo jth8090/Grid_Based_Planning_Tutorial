@@ -40,7 +40,10 @@ Main entry point:
 
 ```run_compare.py``` 
 
-<img width="1422" height="892" alt="run_compare" src="https://github.com/user-attachments/assets/ffffe282-9178-4388-b1d1-539a4c0997dc" />
+
+https://github.com/user-attachments/assets/d421a15a-a9cf-4701-a35b-b5bc51a8b57c
+
+
 
 → opens an interactive window where you can edit a grid and compare search algorithms.
 
