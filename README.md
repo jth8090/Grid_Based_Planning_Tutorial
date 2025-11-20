@@ -150,21 +150,9 @@ ROS 2 demos that take a real occupancy grid from `/map` and run the same algorit
 
 **Launch files**
 
-The package typically provides the following launch files:
+The package typically provides the following launch file:
 
-* `demo_dfs_bfs.launch.py`
-  Runs two planners:
-
-  * `planner_dfs` → publishes `planner_dfs/demo_path`
-  * `planner_bfs` → publishes `planner_bfs/demo_path`
-
-* `demo_dijkstra.launch.py`
-  Compares **BFS vs. Dijkstra** on the same map and start/goal.
-
-* `demo_astar.launch.py`
-  Compares **Dijkstra vs. A*** (with selectable heuristic).
-
-* `demo_all_algorithms.launch.py`
+* `path_planning.launch.py`
   Runs **DFS, BFS, Dijkstra, A*** all at once:
 
   * `planner_dfs/demo_path`
@@ -184,7 +172,7 @@ source install/setup.bash
 ros2 launch gbp_common view_map.launch.py
 
 # Terminal 2 – planners
-ros2 launch gbp_planning_demos demo_all_algorithms.launch.py
+ros2 launch gbp_planning_demos path_planning.launch.py
 ```
 
 In RViz:
@@ -219,11 +207,6 @@ All slides used in the videos are stored in the `lecture_docs/` directory:
 * `lecture_docs/GBP_Lecture_3.pdf` – Dijkstra’s algorithm (graph interpretation, optimality proof, relation to BFS)
 * `lecture_docs/GBP_Lecture_4.pdf` – A* search (heuristics, admissibility, consistency, optimality proof)
 
-You can follow the slides while:
-
-* running `windows_demo` on a local grid, or
-* running the ROS 2 demos on an actual occupancy map.
-
 ---
 
 ## Lecture Videos (YouTube)
@@ -238,7 +221,7 @@ Each lecture roughly follows the same pattern:
 1. Theory on the slides (from `lecture_docs/`),
 2. Walkthrough of the Python implementation,
 3. ROS 2 demo on the same concept.
-4. 
+   
 ---
 
 ## Getting Started (Quick Overview)
@@ -247,7 +230,7 @@ Each lecture roughly follows the same pattern:
 
 1. Install Python 3.x.
 
-2. Install any required packages (e.g., `numpy`, `matplotlib`) according to comments or a `requirements.txt` file.
+2. Install any required packages (e.g., `numpy`, `matplotlib`, `pillow`).
 
 3. Run:
 
