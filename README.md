@@ -57,7 +57,6 @@ Supporting modules:
   * `gridmap.py`
   * `costmap.py`
   * `search_utils.py`
-  * (plus other helpers if needed)
 
 **Key Features**
 
