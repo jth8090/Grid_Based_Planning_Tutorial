@@ -287,6 +287,6 @@ Each lecture roughly follows the same pattern:
 
 ## Contact
 
-* Author: **Taehyun Jeong (정태현)**
+* Author: **Taehyun Jung (정태현)**
 * E-mail: jth8090@khu.ac.kr
 * GitHub: [@jth8090](https://github.com/jth8090)
